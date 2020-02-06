@@ -538,6 +538,8 @@ export interface Data {
      */
     empty?: { label: { text: string } };
 
+    stack?: { normalize: boolean },
+
     selection?: {
         /**
          * Enable or disable selecting data.
